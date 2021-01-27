@@ -1,0 +1,4 @@
+Với android android-28. Muốn tạo folder bên ngoài internal storage  trong android thêm vào: 
+<edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:requestLegacyExternalStorage="true" />
+</edit-config>
